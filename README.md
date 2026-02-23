@@ -1,9 +1,7 @@
-# hmm-visualizer
-Hidden Markov Model Visualization Web App
 # 📊 Hidden Markov Model (HMM) Visualizer using Baum-Welch Algorithm
 
-**Name:** SHAZIA
-**Registration Number:** TCR24CS060 
+**Name:** SHAZIA  
+**Registration Number:** TCR24CS060  
 **Course:** B.Tech CSE  
 **Assignment:** Implementation of Hidden Markov Model (HMM) using Baum-Welch Algorithm with Visualization  
 
@@ -57,7 +55,7 @@ The application visually demonstrates how HMM parameters evolve during training 
 - D3.js  
 
 **Visualization Library**
-- `state-transition-diagrams` (for animated HMM diagrams)
+- state-transition-diagrams (for animated HMM diagrams)
 
 ---
 
@@ -73,8 +71,8 @@ The application visually demonstrates how HMM parameters evolve during training 
 - ✅ Clean and modern UI  
 
 ---
-## 📁 Project Structure
 
+## 📁 Project Structure
 hmm-visualizer/
 ├── app.py
 ├── requirements.txt
@@ -84,44 +82,34 @@ hmm-visualizer/
 ├── style.css
 └── script.js
 
+
 ---
 
-## 🚀 How to Run the Project
 
-### 1️⃣ Install Python (if not installed)
+
+### 1️⃣ Install Python
 Download from: https://www.python.org/downloads/
-
----
 
 ### 2️⃣ Install Required Libraries
 
 ```bash
 pip install flask numpy state-transition-diagrams
-
----
-
-### 3️⃣ Run the Flask Server
+3️⃣ Run the Flask Server
 python app.py
-
 4️⃣ Open in Browser
 http://localhost:5000
----
 🧪 Sample Input
 
-Sequence:
+Sequence
 
 0,1,2,1,0,2,2,1
----
-Hidden States:
+
+Hidden States
 
 2
----
-
-Observations:
+Observations
 
 3
----
-
 📈 Output
 
 State transition diagram updates at each iteration
@@ -131,6 +119,3 @@ Convergence graph shows log-likelihood improving
 Model parameters (A, B, π) displayed in inspector panel
 
 Animation shows flow of probability mass
-
-
-
