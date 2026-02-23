@@ -73,6 +73,60 @@ The application visually demonstrates how HMM parameters evolve during training 
 - ✅ Clean and modern UI  
 
 ---
+## 📁 Project Structure
+
+hmm-visualizer/
+├── app.py
+├── requirements.txt
+├── templates/
+│ └── index.html
+└── static/
+├── style.css
+└── script.js
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Install Python (if not installed)
+Download from: https://www.python.org/downloads/
+
+---
+
+### 2️⃣ Install Required Libraries
+
+```bash
+pip install flask numpy state-transition-diagrams
+
+3️⃣ Run the Flask Server
+python app.py
+
+4️⃣ Open in Browser
+http://localhost:5000
+
+🧪 Sample Input
+
+Sequence:
+
+0,1,2,1,0,2,2,1
+
+Hidden States:
+
+2
+
+Observations:
+
+3
+
+📈 Output
+
+State transition diagram updates at each iteration
+
+Convergence graph shows log-likelihood improving
+
+Model parameters (A, B, π) displayed in inspector panel
+
+Animation shows flow of probability mass
 
 
 
