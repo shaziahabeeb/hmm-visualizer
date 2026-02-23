@@ -98,25 +98,29 @@ Download from: https://www.python.org/downloads/
 ```bash
 pip install flask numpy state-transition-diagrams
 
-3️⃣ Run the Flask Server
+---
+
+### 3️⃣ Run the Flask Server
 python app.py
 
 4️⃣ Open in Browser
 http://localhost:5000
-
+---
 🧪 Sample Input
 
 Sequence:
 
 0,1,2,1,0,2,2,1
-
+---
 Hidden States:
 
 2
+---
 
 Observations:
 
 3
+---
 
 📈 Output
 
