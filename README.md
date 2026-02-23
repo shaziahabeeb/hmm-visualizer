@@ -2,9 +2,8 @@
 Hidden Markov Model Visualization Web App
 # 📊 Hidden Markov Model (HMM) Visualizer using Baum-Welch Algorithm
 
-**Name:** <YOUR FULL NAME>  
-**University:** <YOUR UNIVERSITY NAME>  
-**Registration Number:** <YOUR REGISTRATION NUMBER>  
+**Name:** SHAZIA
+**Registration Number:** TCR24CS060 
 **Course:** B.Tech CSE  
 **Assignment:** Implementation of Hidden Markov Model (HMM) using Baum-Welch Algorithm with Visualization  
 
